@@ -74,6 +74,7 @@ create table ynk_pdb_table (i int, j int);
 insert into ynk_pdb_table (i, j) values (1, 111);
 insert into ynk_pdb_table (i, j) values (2, 222);
 select * from ynk_pdb_table;
+drop table ynk_pdb_table;
 
 -- 8: соединение sys к ynk_pdb
 select * from dba_tablespaces;
