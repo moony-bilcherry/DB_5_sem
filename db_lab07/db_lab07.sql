@@ -33,7 +33,7 @@ select process from v$session where username is not null;
 select * from v$process;
 
 -- 10: содержимое файла LISTENER.ORA
--- C:\Users\Administrator\Desktop\db_install\network\admin\listener.ora
+-- C:\app\oracle_user\product\12.1.0\dbhome_1\NETWORK\ADMIN
 
 -- 11: запустить утилиту lsnrctl и поясните ее основные команды
 -- lsnrctl:
